@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtapia5070/myApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtapia5070/myApp/issues"
+  },
+  "homepage": "https://github.com/vtapia5070/myApp#readme",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}
