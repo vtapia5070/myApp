@@ -12,20 +12,20 @@ const TodoApp = combineReducers({
  * reducer. See implementation below.
  */
 
-const myCombineReducers = (reducers) => {
-    return (state = {}, action) => {
-        return Object.keys(reducers).reduce(
-            (nextState, key) => {
-                nextState[key] = reducers[key](
-                    state[key],
-                    action
-                );
-                return nextstate;
-            },
-            {}
-        );
-    };
-};
+// const myCombineReducers = (reducers) => {
+//     return (state = {}, action) => {
+//         return Object.keys(reducers).reduce(
+//             (nextState, key) => {
+//                 nextState[key] = reducers[key](
+//                     state[key],
+//                     action
+//                 );
+//                 return nextstate;
+//             },
+//             {}
+//         );
+//     };
+// };
 
 // Manually example of combineReducers
 // const TodoApp = (state = {}, action) => {

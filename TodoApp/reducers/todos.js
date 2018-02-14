@@ -3,6 +3,12 @@
  * - different reducers affect different parts of the state.
  */
 
+ /**
+  * TODO:
+  * research why/how action.type changes are detected in store.dispatch()
+  */
+
+ 
 /**
  * Todo Reducer
  * @param {*} state 
