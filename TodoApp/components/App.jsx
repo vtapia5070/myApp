@@ -1,8 +1,14 @@
 import React from 'react';
-import TodoList from './TodoList';
+// import TodoList from './TodoList';
+import AddTodo from '../containers/AddTodo'
 import Footer from './Footer';
+import VisibleTodoList from '../containers/VisibleTodoList';
 
-class TodoApp extends React.Component {
+/**
+ * Presentational Component for TodoApp
+ */
+
+class App extends React.Component {
 
     constructor () {
         super();
@@ -30,8 +36,9 @@ class TodoApp extends React.Component {
     render() {
         return (
             <div>
-                <h1>Todos:</h1>
-                <TodoList todos={this.state.todos} />
+                <AddTodo />
+                {/* <TodoList todos={this.state.todos} /> */}
+                <VisibleTodoList />
                 <Footer option={'show all'} />
             </div>
         );
@@ -39,4 +46,4 @@ class TodoApp extends React.Component {
 
 }
 
-export default TodoApp;
+export default App;
